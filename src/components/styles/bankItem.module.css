@@ -1,0 +1,14 @@
+.image {
+  width: 80px;
+}
+.cardContent:hover {
+  transform: scale(1.12);
+  transition: all 0.3s ease-out;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.37);
+}
+
+@media (max-width: 576px) {
+  .cardContent {
+    width: 80%;
+  }
+}
