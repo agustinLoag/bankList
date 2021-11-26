@@ -4,6 +4,7 @@ import BankList from './components/BankList';
 import generateStore from './redux/store';
 
 function App() {
+  console.log("Hola")
   let store = generateStore();
   console.log(store, 'Store');
   return (
